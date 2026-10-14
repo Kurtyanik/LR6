@@ -10,57 +10,79 @@
 
 Войдём в аккаунт на Github и сделаем копию из [https://github.com/Kurtyanik/LR6/](https://github.com/Kurtyanik/LR6/) в личное хранилище (рис. 1)
 
-![](/home/ilyuha/Documents/ВУЗ/2_курс/ОП/№6/LR6/images/1.png)
-
-Рисунок 1 – Копия репозитория в личное хранилище
+<div align="center">
+  
+![](images/1.png)
+Рисунок 1 – Копия репозитория в личное хранилище</div>
 
 Скопируем репозиторий теперь на сам компьютер через git clone (рис. 2)
 
-![](/home/ilyuha/Documents/ВУЗ/2_курс/ОП/№6/LR6/images/2.png)
+<div align="center">
+  
+![](images/2.png)
+
+Рисунок 2 - Клонирование репозитория на компьтер</div>
 
 Настроим клиент git через git config, введя имя и почту (рис. 3)
 
-![](/home/ilyuha/.config/marktext/images/0bce7e8598af1b186b91e2350eaf5658f7b55287.png)
+<div align="center">
+  
+![](/images/3.png)
 
-Рисунок 3 - Настройка клиента git 
+Рисунок 3 - Настройка клиента git</div>
 
 Добавим файл через интерфейс Github и подтянем изменения в локальный репозиторий (рис. 4 и 5)
 
-![](/home/ilyuha/Documents/ВУЗ/2_курс/ОП/№6/LR6/images/4.png)
+
+<div align="center">
+  
+![](images/4.png)
 
 Рисунок 4 - Добавление файла через интерфейс Github
 
-![](/home/ilyuha/Documents/ВУЗ/2_курс/ОП/№6/LR6/images/5.png)
+![](images/5.png)
 
-Рисунок 5 - Подтягивание изменений в локальный репозиторий
+Рисунок 5 - Подтягивание изменений в локальный репозиторий</div>
 
 Теперь посмотрим историю изменений через git log 
 
-![](/home/ilyuha/Documents/ВУЗ/2_курс/ОП/№6/LR6/images/6.png)
 
-Рисунок 6 - Просмотр истории изменений
+<div align="center">
+  
+![](images/6.png)
+
+Рисунок 6 - Просмотр истории изменений</div>
 
 Сделаем несколько коммитов с комментариями (рис. 7)
 
-![](/home/ilyuha/Documents/ВУЗ/2_курс/ОП/№6/LR6/images/7.png)
+<div align="center">
+  
+![](images/7.png)
 
-Рисунок 7 - Коммиты с комментариями
+Рисунок 7 - Коммиты с комментариями</div>
 
 Откатим один коммит через git reset --soft HEAD~1 (рис. 8)
+<div align="center">
+  
+![](images/8.png)
 
-![](/home/ilyuha/.config/marktext/images/218f538f3d99c53221adb37d0124cb73dd16acb2.png)
+Рисунок 8 - сброс коммита через git reset</div>
 
-Рисунок 8 - сброс коммита через git reset
+Создадим отдеьную ветку для загрузки отчёта (рис. 9)
 
-Создадим отдеьную ветку для загрузки отчёта (рис. 8)
+<div align="center">
+  
+![](images/9.png)
 
-![](/home/ilyuha/Documents/ВУЗ/2_курс/ОП/№6/LR6/images/9.png)
-
-Рисунок 9 - Создание ветки для отчёта
+Рисунок 9 - Создание ветки для отчёта</div>
 
 Теперь выведем отформатированную историю коммитов (рис. 10)
 
-![](/home/ilyuha/.config/marktext/images/e017357a9b151f7ba97d118d0e509289ec447975.png)
+<div align="center">
+  
+![](images/10.png)
+
+Рисунок 10 - отформатированная история коммитов</div>
 
 ## Выводы
 
